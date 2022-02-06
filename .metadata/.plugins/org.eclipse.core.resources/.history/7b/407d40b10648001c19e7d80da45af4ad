@@ -1,0 +1,49 @@
+package com.raju.strings;
+
+public class TwoString {
+	
+	public static String isCheck(String s1 , String s2) {
+		String seq = "";
+		String s3 = "";
+		for(int i=0;i<s2.length();i++) {
+			char c1 = s2.charAt(i);
+			for(int j=i;j<s1.length();j++) {
+				char c2 = s1.charAt(j);
+				if(c1==c2) {
+					seq = seq+c2;
+					int x=i;
+					while(x<s2.length()) {
+					char c3 = s2.charAt(i+1);
+					char c4 = s2.charAt(j+1);
+					if(c3 == c4) {
+						seq = seq+c3;
+					}else {
+						s3 = s3+c3;
+					}
+					x++;
+					}
+					//break;
+				}
+			}
+		}
+		return seq;
+	}
+	public static void main(String[] args) {
+		String s1 = "hdl";
+		String s2 = "ghicdekl";
+		
+		if(s2.contains(s1)) {
+			System.out.println("Matche");
+		}else {
+			String seq = isCheck(s1, s2);
+			if(s1==seq && s1.length()==seq.length()) {
+				System.out.println("Sequence");
+			}
+		}
+		/*
+		
+		*/
+
+	}
+
+}

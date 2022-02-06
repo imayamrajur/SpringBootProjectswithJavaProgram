@@ -1,0 +1,5 @@
+package com.raju.repository;
+
+public interface DBFileRepository {
+
+}

@@ -1,0 +1,13 @@
+package com.raju.maths;
+
+import java.util.Arrays;
+
+public class MathsWork {
+
+	public static void main(String[] args) {
+		String number = "12,5,7,6,3,25,4,8";
+		String[] arrNumber = Arrays.asList(null)
+
+	}
+
+}

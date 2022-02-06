@@ -1,0 +1,26 @@
+package com.raju.maths;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MathsWork {
+
+	public static void main(String[] args) {
+		List<String> arrNumber = new ArrayList<>();
+		String number = "12,5,7,6,3,25,4,8";
+		String[] liNum = number.split(",");
+		int[] numList = new int[8];
+		for(int i=0;i<liNum.length;i++) {
+			numList[i] = Integer.parseInt(liNum[i]);
+			
+		}
+		System.out.println(Arrays.toString(numList));
+		for(int i=0;i<numList.length;i++) {
+			
+		}
+		
+
+	}
+
+}

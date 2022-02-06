@@ -1,0 +1,10 @@
+package com.raju.maths;
+
+public class MathsWork {
+
+	public static void main(String[] args) {
+		String number = "125,7,6,3,25,4,8";
+
+	}
+
+}

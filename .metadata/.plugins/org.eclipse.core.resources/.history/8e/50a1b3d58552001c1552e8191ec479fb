@@ -1,0 +1,10 @@
+package com.raju.stars;
+
+public class DiamentStars {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.raju.stars;
+
+public class DiamentStars {
+
+	public static void main(String[] args) {
+		int row = 5, k=0;
+		for(int space = 1; space<=row;++space;k=0) {
+			for()
+		}
+
+	}
+
+}

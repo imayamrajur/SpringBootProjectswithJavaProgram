@@ -1,0 +1,5 @@
+package com.raju.exception;
+
+public class MyFileNotFoundException {
+
+}

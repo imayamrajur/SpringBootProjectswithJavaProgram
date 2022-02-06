@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;FutureInterface.java&apos; to &apos;SampleProgramming/src/com.raju.future&apos;&#x0D;&#x0A;- Original project: &apos;SampleProgramming&apos;&#x0D;&#x0A;- Destination element: &apos;SampleProgramming/src/com.raju.future&apos;&#x0D;&#x0A;- Original element: &apos;com.raju.abstracts.FutureInterface.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.raju.future" element1="/src&lt;com.raju.abstracts{FutureInterface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1636438606119" units="1" version="1.0"/>
+</session>

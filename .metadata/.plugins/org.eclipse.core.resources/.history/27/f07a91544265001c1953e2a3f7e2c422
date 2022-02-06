@@ -1,0 +1,15 @@
+package com.raju.exceptionss;
+
+import java.io.IOException;
+
+
+public class Tiger extends Animal {
+	//Animal animal = new Animal();
+	//animal.display();
+	//@SuppressWarnings("static-access")
+	public void getDetails() throws IOException {
+		System.out.println("normal mathed access to Normal");
+		super.display();
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.raju.stars;
+
+public class DiamentStars {
+
+	public static void main(String[] args) {
+		int row = 5, k=0;
+		for(int space = 1; space<=row;++space,k=0) {
+			for(int sp=1;sp<=row-space;++sp) {
+				System.out.println("");
+			}
+			while(k!=2*space-1) {
+				System.out.println("*");
+				k++;
+			}
+		}
+
+	}
+
+}
